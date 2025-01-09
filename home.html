@@ -128,16 +128,21 @@
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
+  .btn-projeto{
+    width: 220px;
+    height: 50px;
+    background: #111;
+    color: #fff;
+    border-radius: 10px;
+  }
   </style>
 </head>
 <body>
 
     <header>
         <div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
-          <!-- Adicione sua imagem aqui -->
           <img src="./eu.jpg" alt="Foto de Felipe" style=" width: 220px; height: 290px; object-fit: cover;">
           
-          <!-- Texto de introdução -->
           <div>
             <h1>Oi, meu nome é Felipe 👋</h1>
             <p>👨‍🎓 Sou programador Fullstack</p>
@@ -147,7 +152,6 @@
         </div>
       </header>
       
-
   <div class="stats-container">
     <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMYung&layout=compact&langs_count=7&theme=dracula" alt="Linguagens mais usadas">
     <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=FelipeMYung&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub">
@@ -166,50 +170,74 @@
   </section>
 
   <section class="social">
+
     <h2>Entre em Contato</h2>
+    
+    <!--Redes Sociais -->
     <div>
-      <a href="https://instagram.com/felipemartinsyung" target="_blank">
-        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+      <a href="https://github.com/FelipeMYung" target="_blank">
+        <img src="https://img.shields.io/badge/-Github-%23E4405F?style=for-the-badge&logo=github&logoColor=white" alt="Instagram">
       </a>
       <a href="https://www.linkedin.com/in/felipe-martins-yung-97425b275/" target="_blank">
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
       </a>
+
     </div>
   </section>
+
   <section class="projects">
+
     <h2>Meus Projetos</h2>
+
     <div class="carousel">
       <button class="prev" onclick="prevSlide()">&#10094;</button>
       <div class="carousel-content">
         <!-- Projeto 1 -->
         <div class="project">
-          <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
           <h3>Clone Amazon - PHP</h3>
-          <a href="hhttps://github.com/FelipeMYung/Amazon-site-Clone.git" target="_blank">Ver no GitHub</a>
+          <P>Clone do site da Amazon com Banco de Dados simples</P>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" style='width: 50px'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" style='width: 50px'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" style='width: 50px'> <br><br>
+          <button class="btn-projeto">  <a href="hhttps://github.com/FelipeMYung/Amazon-site-Clone.git" style="text-decoration: none;" target="_blank">Ver no GitHub</a></button>
         </div>
         <!-- Projeto 2 -->
         <div class="project">
-          <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
           <h3>Organizador de Tarefas - PHP</h3>
-          <a href="https://github.com/FelipeMYung/Evotron.git" target="_blank">Ver no GitHub</a>
+          <p>Organizador de tarefas com Banco de Dados e PHP</p>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" style='width: 50px'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" style='width: 50px'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" style='width: 50px'> <br><br>
+          <button class="btn-projeto"><a href="https://github.com/FelipeMYung/Evotron.git" style="text-decoration: none;" target="_blank">Ver no GitHub</a></button>
         </div>
         <!-- Projeto 3 -->
         <div class="project">
-          <img src="https://via.placeholder.com/300x200" alt="Projeto 3">
           <h3>Calculadora - JS</h3>
-          <a href="https://github.com/FelipeMYung/Calculadora-Js" target="_blank">Ver no GitHub</a>
+          <p>Calculadora simples utilizando javascript e Html</p>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" style='width: 50px'>
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" style='width: 50px'> <br><br>
+          <button class="btn-projeto"><a href="https://github.com/FelipeMYung/Calculadora-Js" style="text-decoration: none;" target="_blank">Ver no GitHub</a></button>
         </div>
-
+        <!-- Projeto 4 -->
         <div class="project">
-            <img src="https://via.placeholder.com/300x200" alt="Projeto 4">
             <h3>Jogo de Gravidade - JS</h3>
-            <a href="https://github.com/FelipeMYung/Simulador-de-gravidade.git" target="_blank">Ver no GitHub</a>
+            <P>Jogo educativo de simulação de gravidade utilizando javascript</P>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" style='width: 50px'>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" style='width: 50px'>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" style='width: 50px'> <br><br>
+            <button class="btn-projeto"><a href="https://github.com/FelipeMYung/Simulador-de-gravidade.git" style="text-decoration: none;" target="_blank">Ver no GitHub</a></button>
           </div>
-
+        <!-- Projeto 5 -->
           <div class="project">
-            <img src="https://via.placeholder.com/300x200" alt="Projeto 4">
             <h3>Caculadora Geométrica - Java</h3>
-            <a href="https://github.com/Sari-Dorneles/projetogeometria.git" target="_blank">Ver no GitHub</a>
+            <p>Calculadora criada em Java de Objetos geométrico em Java</p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-plain.svg" alt="Java"  style='width: 50px'> <br><br>
+            <button class="btn-projeto"><a href="https://github.com/Sari-Dorneles/projetogeometria.git" style="text-decoration: none;" target="_blank">Ver no GitHub</a></button>
           </div>
       </div>
       <button class="next" onclick="nextSlide()">&#10095;</button>
